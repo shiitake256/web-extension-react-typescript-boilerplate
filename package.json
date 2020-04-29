@@ -21,5 +21,14 @@
     "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.10.3"
+  },
+  "scripts": {
+    "start-firefox": "webpack && web-ext run -t firefox-desktop -s dist",
+    "start-chromium": "webpack && web-ext run -t chromium -s dist",
+    "build": "webpack",
+    "build-watch": "webpack --watch",
+    "run-firefox": "web-ext run -t firefox-desktop -s dist",
+    "run-chromium": "web-ext run -t chromium -s dist"
   }
+
 }
