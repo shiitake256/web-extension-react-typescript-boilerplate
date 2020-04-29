@@ -1,0 +1,1 @@
+https://api.weblio.jp/act/quote/v_1_0/e/good%20day?type=elarge
